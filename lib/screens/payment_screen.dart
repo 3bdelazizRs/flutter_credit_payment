@@ -221,7 +221,7 @@ class _NewCreditCardScreenState extends State<NewCreditCardScreen> {
       onPressed: () async {
         if (formkey.currentState!.validate()) {}
       },
-      text: 'Add card',
+      text: 'Add credit card',
       valid: true,
     );
   }
