@@ -2,6 +2,18 @@
 
 A new Flutter project.
 
+ ## About project
+ <img src="https://seeklogo.com/images/F/flutter-logo-5086DD11C5-seeklogo.com.png" height="30%" width="30%"></img>
+
+ 
+## Documentation 
+flutter <a href="https://docs.flutter.dev/"> documentation </a> <br>
+dart <a href="https://dart.dev/guides"> documentation </a> <br>
+firebase <a href="https://docs.flutter.dev/data-and-backend/firebase"> documentation </a> <br>
+lottie <a href="https://pub.dev/packages/lottie"> documentation </a> <br>
+
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
