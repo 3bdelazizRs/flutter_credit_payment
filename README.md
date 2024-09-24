@@ -2,8 +2,10 @@
 
 A new Flutter project.
 
+
  ## About project
- <img src="https://seeklogo.com/images/F/flutter-logo-5086DD11C5-seeklogo.com.png" height="30%" width="30%"></img>
+ <img src="https://seeklogo.com/images/F/flutter-logo-5086DD11C5-seeklogo.com.png" height="30%" width="30%"></img> <br>
+ The purpose of this project is to validate credit cards and facilitate this proccess.
 
  
 ## Documentation 
