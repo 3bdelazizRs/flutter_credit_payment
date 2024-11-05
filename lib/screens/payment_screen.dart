@@ -7,6 +7,7 @@ import 'package:credit_payment/payment_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:remixicon/remixicon.dart';
+import 'package:toastification/toastification.dart';
 
 class NewCreditCardScreen extends StatefulWidget {
   const NewCreditCardScreen({super.key});
@@ -219,7 +220,23 @@ class _NewCreditCardScreenState extends State<NewCreditCardScreen> {
   Widget _saveButton() {
     return DefaultButton(
       onPressed: () async {
-        if (formkey.currentState!.validate()) {}
+        if (formkey.currentState!.validate()) {
+          toastification.show(
+            type: ToastificationType.success,
+            style: ToastificationStyle.flatColored,
+            context: context,
+            title: const Text('Your card with succes'),
+            autoCloseDuration: const Duration(seconds: 5),
+          );
+        } else {
+          toastification.show(
+            type: ToastificationType.error,
+            style: ToastificationStyle.flatColored,
+            context: context,
+            title: const Text('Please Verfie your information'),
+            autoCloseDuration: const Duration(seconds: 5),
+          );
+        }
       },
       text: 'Add credit card',
       valid: true,
